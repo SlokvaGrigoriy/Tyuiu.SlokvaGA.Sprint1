@@ -32,7 +32,8 @@ namespace Tyuiu.SlokvaGA.Sprint1.Task3.V1
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            Console.WriteLine("Объём цилиндра = " + ds.CylinderVolume(a, b));
+            double result = ds.CylinderVolume(a, b);
+            Console.WriteLine($"Объём цилиндра = {result:F3}");
             Console.ReadKey();
 
         }

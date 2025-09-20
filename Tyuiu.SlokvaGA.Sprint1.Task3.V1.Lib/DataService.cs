@@ -6,7 +6,7 @@ namespace Tyuiu.SlokvaGA.Sprint1.Task3.V1.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            return 3.14 * Math.Pow(r, 2) * h;
+            return Math.PI * Math.Pow(r, 2) * h;
         }
     }
 }

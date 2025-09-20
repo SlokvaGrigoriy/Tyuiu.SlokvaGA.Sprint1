@@ -11,7 +11,7 @@ namespace Tyuiu.SlokvaGA.Sprint1.Task3.V1.Test
             DataService ds = new DataService();
             double x = 3;
             double y = 4;
-            double wait = ds.CylinderVolume(x, y);
+            double wait = 113.097;
             var res = ds.CylinderVolume(x, y);
             Assert.AreEqual(wait, res);
         }
